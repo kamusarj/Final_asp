@@ -1,0 +1,5 @@
+﻿@model IEnumerable<WebApplication2.Models.Department>
+@foreach (var item in Model)
+{
+    <a href="/danhmuc/@item.deptid">@item.deptname</a> <label>&nbsp;|&nbsp;</label>
+}
